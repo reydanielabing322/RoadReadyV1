@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dealerhome"
+        android:icon="@drawable/home_2"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/bottom_progress"
+        android:icon="@drawable/wallet"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/bottom_myvehicle"
+        android:icon="@drawable/pngtree_vector_car_icon_png_image_515825_removebg_preview_1"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/bottom_notification"
+        android:icon="@drawable/screenshot_1_removebg_preview_2"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/user"
+        android:title="@string/title_notifications" />
+
+</menu>

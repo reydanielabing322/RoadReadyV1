@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dealerhome"
+            android:icon="@drawable/myvehicles"
+            android:title="My Vehicles" />
+        <item
+
+            android:icon="@drawable/vehicleapplicants"
+            android:title="Vehicle Applicants" />
+
+        <item
+            android:id="@id/nav_approval"
+            android:title="For Approval"/>
+
+        <item
+            android:id="@+id/nav_list"
+            android:title="Approved List"/>
+
+        <item
+            android:id="@+id/regprogress"
+            android:icon="@drawable/calendar"
+            android:title="Registration Progress" />
+
+
+        <item
+            android:id="@+id/lto"
+            android:icon="@drawable/lto"
+            android:title="Land Transportation Office"/>
+
+        <item
+            android:id="@+id/bank2"
+            android:icon="@drawable/bank"
+            android:title="Bank"/>
+        <item
+            android:id="@+id/side_notifications"
+            android:icon="@drawable/notification"
+            android:title="Notifications"/>
+        <item
+            android:id="@+id/side_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+    </group>
+</menu>

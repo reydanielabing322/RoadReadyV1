@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/buyer_home">
+    <fragment
+        android:id="@+id/buyer_home"
+        android:name="com.example.roadreadyv1.buyer_home"
+        android:label="fragment_buyer_home"
+        tools:layout="@layout/fragment_buyer_home" />
+    <fragment
+        android:id="@+id/bottom_progress2"
+        android:name="com.example.roadreadyv1.bottom_progress"
+        android:label="fragment_bottom_progress"
+        tools:layout="@layout/fragment_bottom_progress" />
+    <fragment
+        android:id="@+id/bottom_myvehicle2"
+        android:name="com.example.roadreadyv1.bottom_myvehicle"
+        android:label="fragment_bottom_myvehicle"
+        tools:layout="@layout/fragment_bottom_myvehicle" />
+    <fragment
+        android:id="@+id/bottom_notification"
+        android:name="com.example.roadreadyv1.bottom_notification"
+        android:label="fragment_bottom_notification"
+        tools:layout="@layout/fragment_bottom_notification" />
+    <fragment
+        android:id="@+id/bottom_profile"
+        android:name="com.example.roadreadyv1.bottom_profile"
+        android:label="fragment_bottom_profile"
+        tools:layout="@layout/fragment_bottom_profile" />
+</navigation>
