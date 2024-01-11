@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bottom_notification">
-
+    tools:context=".RegistrationProgress">
 
     <ImageView
-        android:id="@+id/imageView37"
-        android:layout_width="392dp"
-        android:layout_height="254dp"
-        android:src="@drawable/notifybuyer"
+        android:id="@+id/imageView39"
+        android:layout_width="380dp"
+        android:layout_height="375dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.03" />
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/buyerprogressregistrationv2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

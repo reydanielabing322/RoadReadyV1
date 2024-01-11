@@ -8,43 +8,43 @@
     <fragment
         android:id="@+id/dealerhome"
         android:name="com.example.roadreadyv1.Dealerhome"
-        android:label="          My Vehicles"
+        android:label="              My Vehicles"
         tools:layout="@layout/fragment_dealerhome" />
     <fragment
         android:id="@+id/nav_approval"
         android:name="com.example.roadreadyv1.ui.gallery.GalleryFragment"
-        android:label="           For Approval"
+        android:label="               For Approval"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_list"
         android:name="com.example.roadreadyv1.ui.slideshow.SlideshowFragment"
-        android:label="          Approved List"
+        android:label="              Approved List"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/regprogress"
         android:name="com.example.roadreadyv1.regprogress"
-        android:label="       Registration Progress"
+        android:label="         Registration Progress"
         tools:layout="@layout/fragment_regprogress" />
     <fragment
         android:id="@+id/lto"
         android:name="com.example.roadreadyv1.lto"
-        android:label="   Land Transportation Office"
+        android:label="     Land Transportation Office"
         tools:layout="@layout/fragment_lto" />
     <fragment
         android:id="@+id/bank2"
         android:name="com.example.roadreadyv1.bank"
-        android:label="             Bank"
+        android:label="                  Bank"
         tools:layout="@layout/fragment_bank" />
     <fragment
         android:id="@+id/side_notifications"
         android:name="com.example.roadreadyv1.side_notifications"
-        android:label="              Notifications"
+        android:label="               Notifications"
         tools:layout="@layout/fragment_side_notifications" />
     <fragment
         android:id="@+id/side_profile"
         android:name="com.example.roadreadyv1.side_profile"
-        android:label="                 Profile"
+        android:label="                   Profile"
         tools:layout="@layout/fragment_side_profile" />
 
 </navigation>
